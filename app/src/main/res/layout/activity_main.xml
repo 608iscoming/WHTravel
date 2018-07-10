@@ -9,14 +9,167 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.wq.whtravel.MainActivity">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:orientation="vertical"
+      android:layout_height="match_parent">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_weight="1"
+          android:layout_height="0dp">
+          <Button
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="match_parent" />
+          <Button
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="match_parent" />
+          <Button
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="match_parent" />
+          <Button
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="match_parent" />
+      </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello this is the whtravel app" />
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_weight="1"
+          android:layout_height="0dp">
+          <TextView
+              android:layout_width="match_parent"
+              android:background="#25a443"
+              android:layout_height="match_parent" />
+      </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello this is the whtravel app" />
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_weight="4"
+          android:layout_height="0dp">
+
+          <TableLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <TableRow
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+                  >
+
+                  <Button
+                      android:layout_margin="0dp"
+                        android:layout_height="match_parent"
+                      android:text="1"
+                      android:width="0dp"
+                      android:layout_weight="1"
+                      android:id="@+id/button" />
+
+                  <Button  android:text="2"        android:width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent"
+                      />
+
+                  <Button   android:text="3"       android:width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent"/>
+              </TableRow>
+              <TableRow
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+                  >
+                  <Button
+                      android:text="4"
+                      android:width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent"
+
+                      />
+
+                  <Button  android:text="5"        android:width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent"/>
+
+                  <Button   android:text="6"       android:width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent"
+                      />
+              </TableRow>
+              <TableRow
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+                  >
+                  <Button
+                      android:text="7"
+                      android:width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent"
+                      />
+
+                  <Button  android:text="8"        android:width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent"
+                      android:id="@+id/button2" />
+
+                  <Button   android:text="9"       android:width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent"
+                      android:id="@+id/button3" />
+              </TableRow>
+              <TableRow
+                  android:layout_height="0dp"
+                  android:layout_weight="1"
+                  >
+                  <Button
+                      android:text="*"
+                      android:width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent"
+                      />
+
+                  <Button  android:text="0"        android:width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent"
+                      android:id="@+id/button2" />
+
+                  <Button   android:text="#"       android:width="0dp"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent"
+                      android:id="@+id/button3" />
+              </TableRow>
+
+          </TableLayout>
+
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_weight="1"
+          android:background="@color/colorAccent"
+          android:layout_marginLeft="50dp"
+          android:layout_marginRight="50dp"
+          android:layout_height="0dp">
+          <Button
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:text="1"
+              android:layout_height="match_parent" />
+
+          <Button
+              android:layout_width="0dp"
+              android:layout_weight="2"
+              android:text="3"
+              android:layout_height="match_parent" />
+
+          <Button
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:text="1"
+              android:layout_height="match_parent" />
+      </LinearLayout>
+
+  </LinearLayout>
+
 </RelativeLayout>
